@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="htmlHead">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Everest</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="Images/favicon2.ico" type="image/x-icon"/>
+    <!-- /favicon -->
+	
+	<!-- css and fonts -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Julius+Sans+One|Open+Sans" rel="stylesheet">
+
+	<!-- jquery and scripts -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="modalOneLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalOneLabel">Create an Event</h4>
+				</div>
+				<div class="modal-body">
+					<div id="carousel-one" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-one" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-one" data-slide-to="1"></li>
+							<li data-target="#carousel-one" data-slide-to="2"></li>
+							<li data-target="#carousel-one" data-slide-to="3"></li>
+							<li data-target="#carousel-one" data-slide-to="4"></li>
+							<li data-target="#carousel-one" data-slide-to="5"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-one.png">
+								</div>
+						  		<div class="carousel-caption">
+						  			<p>Click the "Create Event" button</p>
+						  		</div>
+							</div>
+							<div class="item">
+								<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-two.png">
+								</div>
+							 	<div class="carousel-caption">
+									<p>Enter your event's details</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-three.png">
+								</div>
+							  	<div class="carousel-caption">
+							    	<p>Set an optional questionnaire for your guests</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-four.png">
+								</div>
+							  	<div class="carousel-caption">
+							    	<p>Set an optional short description about yourself</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-five.png">
+								</div>
+							  	<div class="carousel-caption">
+							    	<p>Confirm your event information</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-six.png">
+								</div>
+							  	<div class="carousel-caption">
+							    	<p>Your event is now created!</p>
+							  	</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-one" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-one" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="modalTwoLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalTwoLabel">Join an Event</h4>
+				</div>
+				<div class="modal-body">
+					<div id="carousel-two" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-two" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-two" data-slide-to="1"></li>
+							<li data-target="#carousel-two" data-slide-to="2"></li>
+							<li data-target="#carousel-two" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+						  		<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-seven.png">
+								</div>
+						  		<div class="carousel-caption">
+						  			<p>Click the "Scan" Button</p>
+						  		</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-fourteen.png">
+								</div>
+							 	<div class="carousel-caption">
+									<p>Scan an Everest QR Code</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-nine.png">
+								</div>
+							 	<div class="carousel-caption">
+									<p>Fill out an optional questionnaire and short description (guest questionnaire displayed here)</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-six.png">
+								</div>
+							 	<div class="carousel-caption">
+									<p>You've now joined the event!</p>
+							  	</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-two" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-two" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="modalThreeLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalThreeLabel">Communicate in an event</h4>
+				</div>
+				<div class="modal-body">
+					<div id="carousel-three" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-three" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-three" data-slide-to="1"></li>
+							<li data-target="#carousel-three" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+						  		<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-ten.png">
+								</div>
+						  		<div class="carousel-caption">
+						  			<p>Post to the newsfeed as a host, and read from it as a host or guest</p>
+						  		</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-eleven.png">
+								</div>
+							 	<div class="carousel-caption">
+									<p>Directly message different people in the event</p>
+							  	</div>
+							</div>
+							<div class="item">
+							 	<div class="carouselImageContainer">
+									<img class="carouselImage" src="Images/screenshot-twelve.png">
+								</div>
+							 	<div class="carousel-caption">
+									<p>Browse through the list of all of the guests and hosts in an event</p>
+							  	</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-three" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-three" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="container">
+		<div id="content">
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#home"><span><img src="images/logo.png" height="100%"/> Everest</span></a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			     	<li><a href="#intro">About Us</a></li>
+			     	<li><a href="#steps">How it Works</a></li>
+			     	<li><a href="#features">Features</a></li>
+			     	<li><a href="#contact">Contact Us</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+
+			<div class="jumbotron header" id="home">
+				<div class="row">
+				  <div class="col-sm-2"></div>
+				  <div class="col-sm-6">
+				  	<h2 class="slogan">Connecting You With Others</h2><br>
+				  	<!-- <p>For all your events</p> -->
+				  	<div class="input-group">
+							<input type="text" placeholder="Email" class="form-control" id="email_input" disabled>
+							<span class="input-group-btn">
+								<button class="btn btn-success disabled" type="button">Sign Up!</button>
+							</span>
+						</div>
+						<label for="email_input">Sorry, you cannot currently sign up at this time!</label>
+			  	</div>
+				  <div class="col-sm-4"></div>
+				</div>
+			</div>
+
+			<div class="intro section" id="intro">
+				<div class="row">
+				  <div class="col-sm-3"></div>
+				  <div class="col-sm-6">
+				  	<div class="intro-text">
+				  		<h2>About us</h2>
+				  		<strong>Events Made Easy.</strong>
+							<p>Everest aims to bring a whole new meaning to in-event communication.</p> 
+							<p>From networking events to weddings, our app will bridge the gap between the hosts and guests of an event by vastly improving social interactions among everyone present, as well as increasing organization as a whole.</p>
+						</div>
+						<div class="intro-image"><img src="images/intro-screenshots.png"/></div>
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
+			  <hr id="steps"/>
+			</div>
+
+			<div class="steps section">
+				<div class="row">
+				  <div class="col-sm-3"></div>
+				  <div class="col-sm-6">
+				  	<center>
+				  		<h2>How it Works</h2>
+				  		<p>Get your first event up and running within minutes.</p>
+				  	</center>
+				  	<div class="row landing-cards">
+                <div class="col-md-4">
+               		<div class="card">
+              			<a class="stepsImgAnchor" data-toggle="modal" data-target="#modalOne">
+              				<img src="images/landing-step1.png"/>
+              			</a>
+               			<strong>Step 1:</strong>
+               			<p>Create an event for your organization through the app.</p>
+               		</div>
+                </div>
+                <div class="col-md-4">
+                	<div class="card">
+                		<a class="stepsImgAnchor" data-toggle="modal" data-target="#modalTwo">
+                			<img src="images/landing-step2.png">
+                		</a>
+                		<strong>Step 2:</strong>
+                		<p>Guests and other hosts can scan your provided QR codes to enter the event.</p>
+                	</div>
+                </div>
+                <div class="col-md-4">
+                	<div class="card">
+                		<a class="stepsImgAnchor" data-toggle="modal" data-target="#modalThree">
+                			<img src="images/landing-step3.png">
+                		</a>
+                		<strong>Step 3:</strong>
+                		<p>Guests and hosts interact between themselves and one-another using communication features.</p>
+                	</div>
+                </div>
+            </div>
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
+        <hr id="features"/>
+			</div>
+
+			<div class="features section">
+				<div class="row">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-6">
+						<h2>Features</h2>
+						  <table class="table table-hover features-table">
+						    <thead>
+						      <tr>
+						      	<th width="20%">Feature</th>
+						        <th width="40%">For Hosts</th>
+						        <th width="40%">For Guests</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						    	<tr class="danger">
+						    		<td>QR Codes</td>
+						    		<td>Allow guests to join your events effortlessly through scanning your event's Guest QR Code.</td>
+						    		<td>Join events without hassle by scanning a unique QR code provided by the event host.</td>
+						    	</tr>
+						    	<tr>
+						    		<td>Event Feed</td>
+						    		<td>Provide real-time, salient updates to all guests and hosts through the in-app event feed.</td>
+						    		<td>Obtain real-time updates from the host(s) of the event (ie. change in schedule, emergency alerts, announcements).</td>
+						    	</tr>
+						    	<tr class="danger">
+						    		<td>Instant Messaging</td>
+						    		<td>Create group chats between hosts and guests to communicate with one another during the event.</td>
+						    		<td>Discover and chat with other guests with similar interests, as well as with hosts if they seek contact with you.</td>
+						    	</tr>
+						    	<tr>
+						    		<td>Unique Profiles</td>
+						    		<td>Create a unique profile per event to showcase a bit about yourself in the event's context. View profiles of other hosts and guests of your event.</td>
+						    		<td>Create a unique profile per event to showcase your skills, talents and hobbies. View profiles of hosts and other guests to find common interests and spark connections.</td>
+						    	</tr>
+						    	<tr class="danger">
+						    		<td>List of Guests and Hosts</td>
+						    		<td>Gain a high-level understanding of who is attending your event, and keep optimal organization by having a quick reference to all other hosts.</td>
+						    		<td>Find out what other guests are attending the event, as well as who the hosts are.</td>
+						    	</tr>
+ 								</tbody>
+						  </table>
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
+			</div>
+
+			<div class="footer section">
+				<div class="row" id="footerContentRow">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-6">
+						<div class="row" id="contactUsFooterRow">
+							<div class="col-sm-12">
+								<h2><span>&nbsp;</span>Contact Us</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<a href="mailto:EverestIosApp@gmail.com" target="_blank">
+									<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span></button>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<p>Copyright &#169; Everest 2017</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
