@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BD3534;}
+	.st1{clip-path:url(#SVGID_2_);fill:#ACABAB;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'OpenSans-Light';}
+	.st4{font-size:19.0068px;}
+	.st5{fill:#191919;}
+	.st6{font-size:28.9935px;}
+	.st7{font-size:18.7418px;}
+	.st8{font-size:46.7477px;}
+	.st9{fill:none;stroke:#191919;stroke-miterlimit:10;}
+	.st10{clip-path:url(#SVGID_4_);fill:#ACABAB;}
+	.st11{letter-spacing:1;}
+	.st12{fill:#212121;}
+	.st13{clip-path:url(#SVGID_6_);fill:#212121;}
+</style>
+<path class="st0" d="M129.5,229.4h-61c-6.6,0-12-5.4-12-12v-61c0-6.6,5.4-12,12-12h61c6.6,0,12,5.4,12,12v61
+	C141.5,224,136.1,229.4,129.5,229.4z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M129.5,229.4h-61c-6.6,0-12-5.4-12-12v-61c0-6.6,5.4-12,12-12h61c6.6,0,12,5.4,12,12v61
+			C141.5,224,136.1,229.4,129.5,229.4z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="44" y="173.2" class="st1" width="118.7" height="62.5"/>
+</g>
+<text transform="matrix(1 0 0 1 83.1932 165.7062)" class="st2 st3 st4">Feb</text>
+<text transform="matrix(1 0 0 1 155.784 171.7663)" class="st5 st3 st6">Everest Network I</text>
+<text transform="matrix(1 0 0 1 155.784 194.2565)"><tspan x="0" y="0" class="st5 st3 st7">Networking event for the Everest</tspan><tspan x="0" y="22.5" class="st5 st3 st7">group.</tspan></text>
+<text transform="matrix(1 0 0 1 71.7435 215.717)" class="st2 st3 st8">25</text>
+<line class="st9" x1="56.5" y1="243.1" x2="461.4" y2="243.1"/>
+<path class="st0" d="M129.5,341.8h-61c-6.6,0-12-5.4-12-12v-61c0-6.6,5.4-12,12-12h61c6.6,0,12,5.4,12,12v61
+	C141.5,336.5,136.1,341.8,129.5,341.8z"/>
+<g>
+	<defs>
+		<path id="SVGID_3_" d="M129.5,341.8h-61c-6.6,0-12-5.4-12-12v-61c0-6.6,5.4-12,12-12h61c6.6,0,12,5.4,12,12v61
+			C141.5,336.5,136.1,341.8,129.5,341.8z"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="44" y="285.6" class="st10" width="118.7" height="62.5"/>
+</g>
+<text transform="matrix(1 0 0 1 81.9031 278.1574)" class="st2 st3 st4">Mar</text>
+<text transform="matrix(1 0 0 1 155.784 284.2169)"><tspan x="0" y="0" class="st5 st3 st6">UWaterloo Engineers</tspan><tspan x="275.6" y="0" class="st5 st3 st6 st11">	</tspan></text>
+<text transform="matrix(1 0 0 1 155.784 306.7072)"><tspan x="0" y="0" class="st5 st3 st7">Networking event for University</tspan><tspan x="0" y="22.5" class="st5 st3 st7">of Waterloo Engineers. </tspan></text>
+<text transform="matrix(1 0 0 1 71.7435 328.1681)" class="st2 st3 st8">14</text>
+<line class="st9" x1="56.5" y1="355.6" x2="461.4" y2="355.6"/>
+</svg>
