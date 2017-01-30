@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BD3534;}
+	.st1{clip-path:url(#SVGID_2_);fill:#ACABAB;}
+	.st2{fill:none;stroke:#191919;stroke-miterlimit:10;}
+	.st3{clip-path:url(#SVGID_4_);fill:#ACABAB;}
+	.st4{fill:#212121;}
+	.st5{clip-path:url(#SVGID_6_);fill:#212121;}
+</style>
+<path class="st0" d="M346.7,389.2H153.3c-23.5,0-42.5-19-42.5-42.5V153.3c0-23.5,19-42.5,42.5-42.5h193.4c23.5,0,42.5,19,42.5,42.5
+	v193.4C389.2,370.1,370.1,389.2,346.7,389.2z"/>
+<circle class="st4" cx="250.8" cy="224.1" r="45.6"/>
+<g>
+	<defs>
+		<path id="SVGID_5_" d="M346.7,389.2H153.3c-23.5,0-42.5-19-42.5-42.5V153.3c0-23.5,19-42.5,42.5-42.5h193.4
+			c23.5,0,42.5,19,42.5,42.5v193.4C389.2,370.1,370.1,389.2,346.7,389.2z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<ellipse style="clip-path:url(#SVGID_2_);fill:#212121;" cx="250" cy="372.7" rx="96.7" ry="87.3"/>
+</g>
+</svg>
